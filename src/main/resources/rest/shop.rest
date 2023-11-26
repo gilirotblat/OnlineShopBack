@@ -1,0 +1,12 @@
+###Crate new Item:
+POST http://localhost:8080/api/v1/shop
+Content-Type: application/json
+Authorization: Basic admin admin
+
+{
+  "title": "Spring Security Password Management",
+  "description": "Encoding passwords with password encoder"
+}
+
+###get all items:
+GET http://localhost:8080/api/v1/shop
